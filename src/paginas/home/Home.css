@@ -1,11 +1,16 @@
-.fonte{
-    color: yellow;
+.caixa{
+background-color: #3f5185;
+}
+.titulo{
+    color: white !important;
+    font-weight: bold !important;
 }
 
-.background{
-    background-color: pink;
+.botao{
+    border-color: white !important;
+    background-color:  #3f5185;
+    color: white !important;
 }
-
-.center{
-    text-align: center;
+.post{
+    background-color: white ;
 }
