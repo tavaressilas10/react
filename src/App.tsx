@@ -6,6 +6,7 @@ import { Grid } from '@material-ui/core';
 import Navbar from './components/estaticos/navbar/Navbar';
 import Footer from './components/estaticos/footer/Footer';
 import Login from './paginas/login/Login'
+import CadastroUsuario from './paginas/cadastroUsuario/CadastroUsuario';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Login />}/>
         <Route path='/Home' element={<Home />} />
+        <Route path='/CadastroUsuario'  element={<CadastroUsuario />} />
         </Routes>
       
       <Footer />
